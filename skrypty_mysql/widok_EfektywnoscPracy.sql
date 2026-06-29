@@ -1,0 +1,14 @@
+CREATE VIEW EfektywnoscPracy AS
+SELECT 
+    p.NAZWISKO, 
+    p.IMIE, 
+    COUNT(s.NUMER_POKOJU) AS LiczbaSprzatan
+FROM 
+    PRACOWNIK p
+JOIN 
+    SPRZATANIE s ON p.ID_PRACOWNIKA = s.ID_PRACOWNIKA
+GROUP BY 
+    p.NAZWISKO, 
+    p.IMIE
+ORDER BY 
+    LiczbaSprzatan DESC;
