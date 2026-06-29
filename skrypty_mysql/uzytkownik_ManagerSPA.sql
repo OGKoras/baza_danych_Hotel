@@ -1,0 +1,7 @@
+CREATE USER 'ManagerSPA'@'%' IDENTIFIED BY 'ManagerSPA';
+GRANT SELECT ON GOSC TO 'ManagerSPA'@'%';
+GRANT SELECT, INSERT, UPDATE, DELETE ON USLUGA TO 'ManagerSPA'@'%';
+GRANT SELECT, INSERT, UPDATE ON WYKORZYSTANE_USLUGI TO 'ManagerSPA'@'%';
+GRANT SELECT ON PopularnoscUslug TO 'ManagerSPA'@'%';
+GRANT SELECT ON DzisiejszyStatusPokoju TO 'ManagerSPA'@'%';
+GRANT EXECUTE ON function StanPokojuWDniu TO 'ManagerSPA'@'%';
