@@ -22,6 +22,7 @@ W folderze z dokumentacją znajdują się szczegółowe materiały opisujące ar
     * **3 Widoki (Views)** – zapytania optymalizujące i ułatwiające dostęp do najczęściej przetwarzanych informacji.
     * **3 Funkcje (Functions)** – czysta logika obliczeniowa zaszyta po stronie serwera bazodanowego.
     * **3 Procedury (Stored Procedures)** – zaawansowane operacje na danych, w tym dedykowana procedura realizująca **lokalną transakcję** (zapewniająca spójność danych) oraz procedura wykorzystująca **kursor** do sekwencyjnego przetwarzania wierszy.
+    * **3 Wyzwalacze (Triggers)** – automatyczna logika bazy danych reagująca na operacje INSERT, UPDATE lub DELETE, dbająca o spójność danych lub logowanie zdarzeń.
 4.  **Zarządzanie bezpieczeństwem** – opis ról i uprawnień zdefiniowanych dla 3 różnych użytkowników systemu.
 
 ---
