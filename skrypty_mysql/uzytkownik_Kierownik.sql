@@ -1,0 +1,11 @@
+CREATE USER 'Kierownik'@'%' IDENTIFIED BY 'Kierownik';
+GRANT SELECT, INSERT, UPDATE, DELETE ON PRACOWNIK TO 'Kierownik'@'%';
+GRANT SELECT, INSERT, UPDATE, DELETE ON PRODUKTY_Minibarowe TO 'Kierownik'@'%';
+GRANT SELECT, INSERT, UPDATE ON SPRZATANIE TO 'Kierownik'@'%';
+GRANT SELECT, UPDATE ON ZUZYCIE TO 'Kierownik'@'%';
+GRANT SELECT ON EfektywnoscPracy TO 'Kierownik'@'%';
+GRANT SELECT ON DzisiejszyStatusPokoju TO 'Kierownik'@'%';
+GRANT EXECUTE ON PROCEDURE RaportSprzatan TO 'Kierownik'@'%';
+GRANT EXECUTE ON FUNCTION SprzataniePokoju TO 'Kierownik'@'%';
+GRANT EXECUTE ON FUNCTION StanPokojuWDniu TO 'Kierownik'@'%';
+GRANT EXECUTE ON PROCEDURE UzupelnijMinibar TO 'Kierownik'@'%';
