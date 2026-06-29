@@ -2,7 +2,7 @@
 
 Kompleksowy projekt relacyjnej bazy danych zaimplementowany w dwóch systemach: Sybase Central oraz MySQL. System składa się z 10 powiązanych tabel, 3 widoków oraz zaawansowanej logiki biznesowej: 3 funkcji i 3 procedur (w tym z wykorzystaniem kursora i transakcji lokalnej). Projekt zawiera również konfigurację uprawnień dla 3 użytkowników oraz pełną dokumentację techniczną.
 
-## 📁 Struktura projektu
+## Struktura projektu
 
 Repozytorium zostało podzielone na trzy główne foldery:
 
@@ -12,7 +12,7 @@ Repozytorium zostało podzielone na trzy główne foldery:
 
 ---
 
-## 📄 Zawartość dokumentacji
+## Zawartość dokumentacji
 
 W folderze z dokumentacją znajdują się szczegółowe materiały opisujące architekturę i działanie bazy danych, w tym:
 
@@ -26,7 +26,7 @@ W folderze z dokumentacją znajdują się szczegółowe materiały opisujące ar
 
 ---
 
-## 🛠️ Technologia
+## Technologia
 
 * **DBMS:** MySQL, Sybase Central (SQL Anywhere)
 * **Język zapytań:** SQL / T-SQL
